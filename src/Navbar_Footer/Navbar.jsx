@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaRegHeart, FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../public/logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +11,7 @@ function Navbar() {
       <div className="flex flex-wrap items-center justify-between px-6 py-4 bg-white shadow-md">
         {/* Logo + Brand */}
         <div className="flex items-center gap-3">
-          <img src={logo} alt="Logo" className="h-12" />
+          <img src='./logo.png' alt="Logo" className="h-12" />
           <div className="text-xl font-bold text-[#333]">
             Velan Yamaha Motors
           </div>
