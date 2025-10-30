@@ -1,7 +1,7 @@
 import React from "react";
 import cart1 from "../../assets/Helmet.png";
 import cart2 from "../../assets/Carbon.png";
-import cart3 from "../../assets/jacket.png";
+import cart3 from "../../assets/Jacket.png";
 import cart4 from "../../assets/tyre.png";
 
 const bikeModels = [

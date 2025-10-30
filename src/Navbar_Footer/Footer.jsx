@@ -15,7 +15,7 @@ function Footer() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-8">
         {/* Brand Info */}
         <div>
-          <img src='./logo.png' alt="Logo" className="h-12 mb-4" />
+          <img src='/logo.png' alt="Logo" className="h-12 mb-4" />
           <p className="text-sm leading-relaxed">
             Velan Yamaha Motors — Where performance meets elegance. Discover
             your ride, your style, your story.
